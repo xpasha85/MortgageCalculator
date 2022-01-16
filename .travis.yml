@@ -32,5 +32,5 @@ install:
   - ls bin/ -l
   - echo "TODO"
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN --file "bin/mortgagecalculator-0.2-armeabi-v7a-debug.apk" --tag_name "v.0.2"
+  - dpl releases --token $GITHUB_TOKEN --file "bin/mortgagecalculator-0.3-armeabi-v7a-debug.apk" --tag_name "v.0.3"
  echo "ok"
